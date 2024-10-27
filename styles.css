@@ -1,16 +1,23 @@
-/*  your css code here. If applicable */
-table, th, td{
-	border:1px solid #ddd;
+/* CSS for the table */
+table, th, td {
+    border: 1px solid #ddd;
 }
 
- .imageContainer {
-            text-align: center;
-            margin-bottom: 20px;
-        }
+/* Styling for the imageContainer div */
+.imageContainer {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
-        .imageContainer img {
-            width: 100%;
-            height: auto;
-            max-width: 1100px;
-            border: 1px solid #ccc;
-        }
+.imageContainer img {
+    width: 100%;
+    height: auto;
+    max-width: 1100px;
+    border: 1px solid #ccc;
+}
+
+/* Optional styling for images in table cells */
+.img-cell img {
+    width: 100px;
+    height: auto;
+}
